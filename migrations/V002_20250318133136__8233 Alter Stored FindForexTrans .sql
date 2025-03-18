@@ -21,6 +21,6 @@ GO
 ALTER PROCEDURE FindForexTranPrc
 AS
 BEGIN
-	SELECT ForexTransID, ContractID FROM TraForexTrans
+	SELECT ForexTransID, ContractID, CurrencyPairID FROM TraForexTrans
 END
 GO
