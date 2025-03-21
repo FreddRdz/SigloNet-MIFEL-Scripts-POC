@@ -18,9 +18,9 @@ GO
 -- Create date: <Create Date, 18/03/2025>
 -- Description:	<Description, Buscar operacion>
 -- =============================================
-CREATE PROCEDURE FindForexTranPrc
+ALTER PROCEDURE FindForexTranPrc
 AS
 BEGIN
-	SELECT ForexTransID, ContractID, CurrencyPairID FROM TraForexTrans
+	SELECT ForexTransID, ContractID, CurrencyPairID, * FROM TraForexTrans
 END
 GO
